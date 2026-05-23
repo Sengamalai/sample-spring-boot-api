@@ -14,7 +14,7 @@ public class ProductController {
     public List<Product> getAllProducts() {
         return Arrays.asList(
             new Product(1, "Laptop", 999.99),
-            new Product(2, "Smartphone", 499.99)
+            new Product(2, "Smartphone1", 499.99)
         );
     }
 }
